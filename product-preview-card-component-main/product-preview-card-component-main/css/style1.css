@@ -1,0 +1,157 @@
+main {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 0.8em;
+
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Fraunces', serif;
+}
+
+.conteudo {
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+    width: 500px;
+
+    border-radius: 10px;
+}
+
+.top__text {
+    margin-top: 5px;
+    font-size: small;
+}
+
+.conteudo div {
+    width: 50%;
+    background-color: #fff;
+}
+
+.conteudo div img {
+    width: 100%;
+    height: 100%;
+}
+
+.foto__produto-mobile {
+    display: none;
+}
+
+.descricao__produto {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    line-height: normal;
+    font-weight: 700;
+    font-size: x-large;
+    font-size: 2.5em;
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+
+.descricao__perfume {
+    line-height: 21px;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+}
+
+.preco {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+
+
+}
+
+.preco__final {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: x-large;
+    font-size: 2em;
+    margin-right: 15px;
+    color: hsl(158, 36%, 37%)
+}
+
+.preco__inicial {
+    font-weight: 300;
+    text-decoration: line-through;
+    font-size: small;
+}
+
+
+button {
+    background: hsl(158, 36%, 37%);
+    border-style: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    color: white;
+}
+
+button img {
+    margin-right: 10px;
+    max-width: 24px;
+    max-height: 24px;
+}
+
+@media screen and (max-width: 500px) {
+    .conteudo {
+        flex-direction: column;
+        width: 90%;
+        height: 90vh;
+    }
+
+    .conteudo div {
+        width: 100%;
+    }
+
+    .foto__produto-desktop {
+        display: none;
+    }
+
+    .foto__produto-mobile {
+        display: flex;
+    }
+
+    .descricao__produto {
+        height: 600px;
+        width: 90%;
+        padding: 0;
+    }
+
+
+
+
+
+
+    /* .foto__container {
+    max-height: 240px;
+
+
+} */
+
+    /* .conteudo div img {
+    width: 100%;
+    height: auto;
+} */
+
+
+}

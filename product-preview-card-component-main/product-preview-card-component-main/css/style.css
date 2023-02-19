@@ -1,0 +1,81 @@
+main {
+    background: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.principal {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.teste {
+    width: 80%;
+    margin: 1.5rem;
+    text-align: start;
+    /* flex-grow: 1; */
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo {
+    width: 500px;
+    margin: 30% 30%;
+    padding: 50px;
+    display: flex;
+    flex-grow: 1;
+    overflow: none;
+    flex-grow: 1;
+    /* background: hsl(30, 38%, 92%); */
+
+}
+
+.foto__produto {
+    width: 50%;
+    border-radius: 5px 0 0 5px;
+}
+
+.descricao__produto {
+    background: hsl(0, 0%, 100%);
+    width: 50%;
+    /* display: flex; */
+    flex-grow: 1;
+    border-radius: 0 5px 5px 0;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+
+}
+
+.preco__final {
+    margin: 1rem 1rem 1rem 0;
+    color: hsl(158, 36%, 37%);
+
+}
+
+.preco__inicial {
+    text-decoration: line-through;
+    font-size: xx-small;
+}
+
+.carrinho {
+    /* display: flex; */
+    align-content: flex-end;
+    flex-grow: 1;
+    padding: 1rem;
+    border: 1px solid #000;
+    text-decoration: none;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.carrinho img {
+    margin-right: 1rem;
+}
+
+.add-to-cart {}
