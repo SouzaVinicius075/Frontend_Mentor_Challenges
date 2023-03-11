@@ -19,13 +19,16 @@ h1 {
 
 .container {
     width: 300px;
-    height: 80vh;
+    height: 500px;
     border-radius: 15px;
     background-color: white;
 }
 
 .bloco-legenda {
     padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .imagem-hero {
@@ -96,10 +99,11 @@ h1 {
         justify-content: space-between;
     }
 
+    /* 
     .container {
         width: 300px;
         height: 75vh;
         border-radius: 15px;
         background-color: white;
-    }
+    } */
 }
